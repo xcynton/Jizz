@@ -1,0 +1,17 @@
+Compiler:
+Variable declaration Line detected -> add Executeable line
+Variable initialisation detected!
+Create Value ...
+Space - delete
+get StartBracket -> index
+getStartBracket -> index+13
+getCloseBracket -> index+9
+noSubbracked
+getStartBreaked > index -> index+13
+getStartBreaked -> index+4
+getCloseBreaked -> index + 8
+subBracket -> index+17
+getStartBreaked > index+17 -> -1
+noSubbracked
+getCloseBracked > index+17 -> inde 
+Executor:

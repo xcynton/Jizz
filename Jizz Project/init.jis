@@ -1,0 +1,11 @@
+[String<> args] -> int
+dependenc{
+	"yscript.jis"
+	"xscript.jis"
+	"SomeClass.jiz"
+}
+yscript[7];
+int fac = xscript[5];
+Object fac2 = new SomeClass[];
+fac2.setPrivateVariale[false];
+return 1;

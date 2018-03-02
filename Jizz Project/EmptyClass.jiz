@@ -1,0 +1,31 @@
+class MyClass{
+	depend{
+		"EmptyCls"
+	}
+	pu int x = 3;
+	pr boolean y;
+	boolean z;
+	EmptyCls useless;
+	
+	byte{
+		a,b,c = 2;
+	}
+	 
+	pr constr[byte a,b,c,boolean x]{
+		this.a = a;
+		this.b = b;
+		this.c = c;
+		y = x;
+	}
+	constr{
+		->[12,10,11,false]
+	}
+	 
+	setBoolea[boolean y]{
+		if(y != this.y){
+			this.y = y;
+		}
+	}
+	 
+	-include<"xscript">
+}

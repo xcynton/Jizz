@@ -1,0 +1,29 @@
+Erwartete Ausgabe Compiler:
+COMPILE
+Compile init.jis - Script
+Dependence:
+yscript.jis - Unchecked
+SomeClass.jiz - Unchecked
+Compile yscript.jis - Script
+yscript Compiled!
+Compile SomeClass.jiz - Data Model
+Dependence:
+EmptyClass.jiz - Unchecked
+yscript.jis - Compiled
+Compile EmptyClass - Data Model
+EmptyClass compiled!
+include xscript
+xscript is not dependence
+Compile xscript.jis - Script
+xscript.jis Compiled!
+SomeClass.jiz Compiled!
+init.jis Compiled!
+END
+
+Je nach CMD ein CUSTOMNAME.jizz File oder für jede Datei ein gleichnamiges.jizz file
+
+--------------------------------------------------------------------
+
+Erwartete Ausgabe bei Ausführung mit Jizz CUSTOMNAME / Jizz init.jizz :
+Hello World
+END 1

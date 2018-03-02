@@ -1,0 +1,1 @@
+String s = "A"+whatIKnow[]+(" B "+88)+" C"+ (11*8) +" ist ";
